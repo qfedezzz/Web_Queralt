@@ -51,14 +51,14 @@ document.addEventListener("DOMContentLoaded", () => {
             // Cuando llegue al final de los 5 segundos reales (equivalentes a 60 segundos en el contador acelerado)
             if (acceleratedTime >= 50) {
                 clearInterval(countdownTimer);
-                message.innerHTML = "¡Suficiente tiempo! ns pk si yo se que es un Sí 😴";
+                message.innerHTML = "suficiente tiempo... ns pa k si yo se que es un Sí 😴";
                 message.style.color = "#000000	";
             }
         }, 100); // Acelera cada 100ms
 
         // Después de 5 segundos reales, mostrar el mensaje final
         setTimeout(() => {
-            message.innerHTML = "¡Suficiente tiempo! ns pk si yo se que es un Sí 😴";
+            message.innerHTML = "suficiente tiempo... ns pa k si yo se que es un Sí 😴";
             message.style.color = "#000000	";
             countdownElement.style.display = "none"; // Ocultar el contador
         }, 5000); // 5 segundos reales
